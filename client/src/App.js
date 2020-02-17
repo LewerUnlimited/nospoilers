@@ -12,7 +12,7 @@ function App() {
         <p>
           nospoilers
         </p>
-        <button onClick={RandomMovie}>
+        <button >
           Random Movie
         </button>
         <p>{apiResponse}</p>

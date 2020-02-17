@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [apiResponse, setApiResponse] = useState([]);
@@ -8,14 +8,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src='./nospoilerslogo.png' className="App-logo" alt="logo" />
         <p>
-          nospoilers
+          Click below for a random movie!
         </p>
-        <button >
+        <button type="button" class="btn btn-lg btn-primary" onClick={RandomMovie}>
           Random Movie
         </button>
         <p>{apiResponse}</p>
+        <p> Or narrow your search down with options below!</p>
+          <form>
+
+          </form>
       </header>
     </div>
   );

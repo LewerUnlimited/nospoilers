@@ -1,1 +1,2 @@
 # nospoilers
+Readme for nospoilers

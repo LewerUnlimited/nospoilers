@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src='./nospoilerslogo.png' className="App-logo" alt="logo" />
         <p>
-          Click below for a random movieeeeee!
+          Click below for a random movie!
         </p>
         <button type="button" class="btn btn-lg btn-primary" onClick={RandomMovie}>
           Random Movie

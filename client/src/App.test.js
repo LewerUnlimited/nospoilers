@@ -12,7 +12,7 @@ describe('App component', () => {
   test('renders nospoilers title', () => {
     const wrapper = shallow(<App />);
 
-    expect(wrapper.findWhere(x => x.text() === 'nospoilers').exists()).toBe(true)
+    expect(wrapper.findWhere(x => x.text() === 'Click below for a random movie!').exists()).toBe(true)
   });
 
   test('random movie button should render correctly', () => {

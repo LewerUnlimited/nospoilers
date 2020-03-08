@@ -32,7 +32,7 @@ class GenreSearch extends Component {
     }
 }
 
-ReactDOM.render(<GenreSearch />, document.getElementById('root'));
+//ReactDOM.render(<GenreSearch />, document.getElementById('root'));
 
 export default GenreSearch;
 

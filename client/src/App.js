@@ -16,7 +16,7 @@ function App() {
             <p>
               Click below for a random movie!
             </p>
-            <button type="button" class="btn btn-lg btn-primary" onClick={RandomMovie}>
+            <button type="button" id="randomMovie" class="btn btn-lg btn-primary" onClick={RandomMovie}>
               Random Movie
             </button>
             <p>{apiResponse}</p>
@@ -41,7 +41,7 @@ function App() {
                     <option value="8">8</option>
                     <option value="9">9</option>
                   </select>
-                <button type="button" class="btn btn-lg btn-primary" onClick="submit">Submit</button>
+                <button type="button" id="ratingBelow" class="btn btn-lg btn-primary" onClick="submit">Submit</button>
               </div>
             </form>
           </div>

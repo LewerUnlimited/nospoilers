@@ -18,6 +18,6 @@ describe('App component', () => {
   test('random movie button should render correctly', () => {
     const wrapper = shallow(<App />);
 
-    expect(wrapper.find('button').text()).toEqual('Random Movie')
+    expect(wrapper.find('#randomMovie').text()).toEqual('Random Movie')
   });
 })
